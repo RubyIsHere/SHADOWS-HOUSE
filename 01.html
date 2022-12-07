@@ -7,13 +7,43 @@
 body { background-color:#FFF8DC; }
 h3{color:royalblue;text-indent:10px;line-height:0.8;}
 p{color:black;text-indent:10px;line-height:1.5;}
+summary{color:royalblue;text-indent:10px;line-height:0.8;font-size:150%}
 
+span {
+            position: relative;
+            margin: -1px;
+            display: inline-block;
+            animation: shake 1s ease-in-out infinite;
+        }
+        span:nth-child(1){
+            animation-delay:.1s;}
+        span:nth-child(2){
+            animation-delay:.2s;}
+        span:nth-child(3){
+            animation-delay:.3s;}    
+        span:nth-child(4){
+            animation-delay:.4s;}    
+        span:nth-child(5){
+            animation-delay:.5s;}  
+
+
+        @keyframes shake {
+            0%,100%{transform: translateY(0px);}
+            30% {transform: translateY(-20px);}
+            60% {transform: translateY(0px);}
+        }
 a:link{color:royalblue;}
 a:visited{color:royalblue;}
-a:hover {color:black;font-weight:bold;text-shadow: 6px 2px 6px red;}
+a:hover {color:black;font-weight:bold;text-shadow: 6px 2px 6px red;transform:scale(1.09);animation-play-state:paused}
 </style>
 <h1 s>喬恩與尚恩</h1>
-<a href="影宅.html" style="position:absolute; top:16px;left:1000px;text-decoration:none"><font size="6">回到主頁</font></a>
+<a href="影宅.html" style="position:absolute; top:16px;left:1000px;text-decoration:none"><font size="6"><div>    
+    <span>點</span>
+    <span>我</span>
+    <span>回</span>
+    <span>主</span>
+    <span>頁</span> 
+    </div></font></a>
 <img src="喬恩.jpg" style="float:right;" width="280" height="380" ;>
 <h3>喬恩（ジョン，聲：酒井廣大）</h3>
 影家人，尚恩的主人。和帕利克同一班，但彼此水火不容。穿著藍色西裝。自稱武鬥派，個性自由奔放且誠實，缺點是不擅長思考如果緊張會說大話。<br>
@@ -25,23 +55,14 @@ a:hover {color:black;font-weight:bold;text-shadow: 6px 2px 6px red;}
 <br>
 <img src="喬恩3.jpg"  width="180" height="250" ;>
 <img src="喬恩5.png"  width="480" height="250" ;>
-<style>
-.popup {cursor: pointer;color:royalblue;}
-.popuptext {visibility: hidden;color:black;}
-.popup .show {visibility: visible;}
-</style>
-<body>
-    <div class="popup" onclick="show()">尚恩真正身分(內有暴雷)<br>
-        <span class="popuptext" id="popup_text">人類時期的名字是喬恩，影宅的領地「鏡邊村」出身，和利奇、露、拉姆是同學。<br>當時戴眼鏡，但進入影宅前為了給選拔官留下好印象而不戴眼鏡。因為需要照顧年幼弟妹的原因直到快要超過加入影宅的最高許可年齡（13歲）時才加入。<br>已被凱特告知影宅的真相並解除洗腦，經常和主人一起協助凱特。<br>
-        <img src="喬恩2.jpg"  width="250" height="250" ;>
-        <img src="喬恩4.jpg"  width="380" height="250" ;>
-       </span>
-    </div>
-</body>
-<script>  
-    function show() {
-        var popup = document.getElementById("popup_text");
-        popup.classList.toggle("show");}
-</script>
+<br><br>
+<details>
+<summary>點擊查看尚恩真正身分(內有暴雷)</summary>
+<ol>
+<p>人類時期的名字是喬恩，影宅的領地「鏡邊村」出身，和利奇、露、拉姆是同學。<br>當時戴眼鏡，但進入影宅前為了給選拔官留下好印象而不戴眼鏡。因為需要照顧年幼弟妹的原因直到快要超過加入影宅的最高許可年齡（13歲）時才加入。<br>已被凱特告知影宅的真相並解除洗腦，經常和主人一起協助凱特。</p>
+<img src="喬恩2.jpg"  width="250" height="250" ;>
+<img src="喬恩4.jpg"  width="380" height="250" ;>
+</ol>
+</details>
 
 </head>

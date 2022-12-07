@@ -7,13 +7,45 @@
 body { background-color:#FFF8DC; }
 h3{color:goldenrod;text-indent:10px;line-height:0.8;}
 p{color:black;text-indent:10px;line-height:1.5;}
+summary{color:goldenrod;text-indent:10px;line-height:0.8;font-size:150%}
 
+span {
+            position: relative;
+            margin: -1px;
+            display: inline-block;
+            animation: shake 1s ease-in-out infinite;
+        }
+        span:nth-child(1){
+            animation-delay:.1s;}
+        span:nth-child(2){
+            animation-delay:.2s;}
+        span:nth-child(3){
+            animation-delay:.3s;}    
+        span:nth-child(4){
+            animation-delay:.4s;}    
+        span:nth-child(5){
+            animation-delay:.5s;}  
+
+
+        @keyframes shake {
+            0%,100%{transform: translateY(0px);}
+            30% {transform: translateY(-20px);}
+            60% {transform: translateY(0px);}
+        }
 a:link{color:goldenrod;}
 a:visited{color:goldenrod;}
-a:hover {color:black;font-weight:bold;text-shadow: 6px 2px 6px red;}
+a:hover {color:black;font-weight:bold;text-shadow: 6px 2px 6px red;transform:scale(1.09);animation-play-state:paused}
 </style>
+
+
 <h1>露薏絲與露</h1>
-<a href="影宅.html" style="position:absolute; top:16px;left:1000px;text-decoration:none"><font size="6">回到主頁</font></a>
+<a href="影宅.html" style="position:absolute; top:16px;left:1000px;text-decoration:none"><font size="6"><div>    
+    <span>點</span>
+    <span>我</span>
+    <span>回</span>
+    <span>主</span>
+    <span>頁</span> 
+    </div></font></a>
 <img src="露薏絲.jpg" style="float:right;"width="280" height="380" ;>
 <h3>露薏絲（ルイーズ，聲：佐倉綾音）</h3>
 影家人，露的主人，穿著黃色連衣裙並戴著非洲菊髮夾。性格開放對人毫無保留，缺點則是極度自戀很少在乎露的想法，凱特分析認為雖然她做事沒有惡意但無法意識到自己正在傷害他人。在斑傑明提點後開始會注重露的意志，自從和斑傑明來往後開始著迷於健身，力氣也變得相當大。社交手腕靈活，在得知影宅真相後常用此能力協助凱特的計畫。
@@ -25,23 +57,13 @@ a:hover {color:black;font-weight:bold;text-shadow: 6px 2px 6px red;}
 <img src="露薏絲4.png" width="370" height="280" ;>
 <img src="露薏絲5.png" width="440" height="280" ;>
 <br>
-<style>
-.popup {cursor: pointer;color:goldenrod;}
-.popuptext {visibility: hidden;color:black;}
-.popup .show {visibility: visible;}
-</style>
-<body>
-    <div class="popup" onclick="show()">露真正身分(內有暴雷)<br>
-        <span class="popuptext" id="popup_text">人類時期的名字是露薏絲，影宅的領地「鏡邊村」出身，和尚恩、利奇、拉姆是同學，且在當時就對利奇有好感。進入影宅前相當開朗愛笑、積極並喜歡照顧人。<br>解除洗腦後，逐漸會展露笑容。<br>
-        <img src="露薏絲2.jpg" width="250" height="280" ;>
-        <img src="露薏絲3.jpg" width="300" height="280" ;>
-
-</span>
-    </div>
-</body>
-<script>
-    function show() {
-        var popup = document.getElementById("popup_text");
-        popup.classList.toggle("show");}
-</script>
+<br>
+<details>
+<summary>點擊查看露真正身分(內有暴雷)</summary>
+<ol>
+<p>人類時期的名字是露薏絲，影宅的領地「鏡邊村」出身，和尚恩、利奇、拉姆是同學，且在當時就對利奇有好感。進入影宅前相當開朗愛笑、積極並喜歡照顧人。<br>解除洗腦後，逐漸會展露笑容。<br></p>
+<img src="露薏絲2.jpg" width="250" height="280" ;>
+<img src="露薏絲3.jpg" width="300" height="280" ;>
+</ol>
+</details>
 </head>

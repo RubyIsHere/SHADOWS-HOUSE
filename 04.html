@@ -7,13 +7,42 @@
 body { background-color:#FFF8DC; }
 h3{color:purple;text-indent:10px;line-height:0.8;}
 p{color:black;text-indent:10px;line-height:1.5;}
+summary{color:purple;text-indent:10px;line-height:0.8;font-size:150%}
 
-a:link{color:purple;}
+a:link{color:purple;animation-play-state:running;}
 a:visited{color:purple;}
-a:hover {color:black;font-weight:bold;text-shadow: 6px 2px 6px red;}
+a:hover{color:black;font-weight:bold;text-shadow: 6px 2px 6px red;transform:scale(1.09);animation-play-state:paused;}
+span {  position: relative;
+        margin: -1px;
+        display: inline-block;
+        animation: shake 1s ease-in-out infinite;}
+        span:nth-child(1){
+            animation-delay:.1s;}
+        span:nth-child(2){
+            animation-delay:.2s;}
+        span:nth-child(3){
+            animation-delay:.3s;}    
+        span:nth-child(4){
+            animation-delay:.4s;}    
+        span:nth-child(5){
+            animation-delay:.5s;}  
+
+
+        @keyframes shake {
+            0%,100%{transform: translateY(0px);}
+            30% {transform: translateY(-20px);}
+            60% {transform: translateY(0px);}
+        }
+
 </style>
 <h1>夏麗與拉姆</h1>
-<a href="影宅.html" style="position:absolute; top:16px;left:1000px;text-decoration:none;"><font size="6">回到主頁</font></a>
+ <div><a href="影宅.html" style="position:absolute; top:16px;left:1000px;text-decoration:none"><font size="6">
+    <span>點</span>
+    <span>我</span>
+    <span>回</span>
+    <span>主</span>
+    <span>頁</span> 
+    </font></a></div>
 <img src="夏麗.jpg" style="float:right;" width="280" height="380" ;>
 <h3>夏麗（シャーリー，聲：下地紫野）</h3>
 影家人，拉姆的主人，穿著紫色連身裙。無法產生人格，個性上幾乎無法對外界做出有意義的反應，事實上也與自己的活人偶拉姆沒有任何交流。<br>
@@ -24,27 +53,15 @@ a:hover {color:black;font-weight:bold;text-shadow: 6px 2px 6px red;}
 活人偶，夏麗的女僕。有著黑色短髮，個性害羞，做事有著細心的一面，記憶力超群，缺點是極度悲觀以至於事事都做不好。因自己幾乎無法與主人交流，也並未從主人那裡得到名字，而是自行取名為「拉姆」，同時經常和食指上的蝴蝶結「拉米」自說自話。<br>
 <img src="夏麗4.png"  width="440" height="280" ;>
 <img src="夏麗5.png"  width="440" height="280" ;>
-<br>
-<style>
-.popup {cursor: pointer;color:purple;}
-.popuptext {visibility: hidden;color:black;}
-.popup .show {visibility: visible;}
-</style>
-<body>
-    <div class="popup" onclick="show()">拉姆真正身分(內有暴雷)<br>
-        <span class="popuptext" id="popup_text">人類時期的名字是夏麗，影宅的領地「鏡邊村」出身，和尚恩、利奇、露是同學。實際年紀為11歲。<br>若是沒把母親的玩偶「拉米」帶在身邊就無法正常溝通，因此當時艾蜜莉可便教她在食指上綁蝴蝶結並取名為「拉米」使其能夠正常溝通。<br>
-        同期中唯一在正式露面失敗的一組而淪為無面人偶，但因夏麗的協助得以擺脫洗腦。目前已和凱特一行人聯絡並告知現狀，並和夏麗一起為凱特蒐集情報，由夏麗蒐集情報，拉姆用紙筆寫下訊息，趁著拉姆巡邏時由夏麗將情報交給凱特。<br>
-        <img src="夏麗2.jpg"  width="280" height="280" ;>
-        <img src="夏麗3.jpg"  width="360" height="280" ;>
-
-       </span>
-    </div>
-</body>
-<script>  
-    function show() {
-        var popup = document.getElementById("popup_text");
-        popup.classList.toggle("show");}
-</script>
+<br><br>
+<details>
+<summary>點擊查看拉姆真正身分(內有暴雷)</summary>
+<ol>
+<p>人類時期的名字是夏麗，影宅的領地「鏡邊村」出身，和尚恩、利奇、露是同學。實際年紀為11歲。<br>若是沒把母親的玩偶「拉米」帶在身邊就無法正常溝通，因此當時艾蜜莉可便教她在食指上綁蝴蝶結並取名為「拉米」使其能夠正常溝通。<br>
+同期中唯一在正式露面失敗的一組而淪為無面人偶，但因夏麗的協助得以擺脫洗腦。目前已和凱特一行人聯絡並告知現狀，並和夏麗一起為凱特蒐集情報，由夏麗蒐集情報，拉姆用紙筆寫下訊息，趁著拉姆巡邏時由夏麗將情報交給凱特。<br>/p>
+<img src="夏麗2.jpg"  width="280" height="280" ;>
+<img src="夏麗3.jpg"  width="360" height="280" ;>
+</details>
 
 <br>
 <br>
