@@ -7,7 +7,9 @@
 body { background-color:#FFF8DC; }
 h3{color:darkgreen;text-indent:10px;line-height:0.8;}
 p{color:black;text-indent:10px;line-height:1.5;}
-summary{color:darkgreen;text-indent:10px;line-height:0.8;font-size:150%}
+button{color:darkgreen;text-indent:10px;line-height:0.8;font-size:150%;border:0;background-color:#FFF8DC;}
+button:hover {color:black;font-weight:bold;text-shadow: 6px 2px 6px red;transform:scale(1.09);}
+
 a:link{color:darkgreen;}
 a:visited{color:darkgreen;}
 a:hover {color:black;font-weight:bold;text-shadow: 6px 2px 6px red;transform:scale(1.09);animation-play-state:paused}
@@ -56,12 +58,10 @@ span {
     <img src="帕利克5.png"  width="380" height="240" ;>
 <br>
 <br>
-<details>
-<summary>點擊查看利奇真正身分(內有暴雷)</summary>
-<ol>
-<p>人類時期的名字是帕利克，影宅的領地「鏡邊村」出身，和尚恩、露、拉姆是同學，且在當時就對露有好感。當時瀏海是放下的，進入影宅前為了給選拔官好印象而把瀏海往上梳。有一個姐姐。<br></p>
+
+<button type="button" onclick="document.getElementById('demo').style.display='block'">點擊查看利奇真正身分(內有暴雷)</button>
+<p id="demo" style="display:none">人類時期的名字是帕利克，影宅的領地「鏡邊村」出身，和尚恩、露、拉姆是同學，且在當時就對露有好感。當時瀏海是放下的，進入影宅前為了給選拔官好印象而把瀏海往上梳。有一個姐姐。
+<br>
 <img src="帕利克2.jpg"  width="260" height="280" ;>
-<img src="帕利克3.jpg"  width="430" height="280" ;>
-</ol>
-</details>
+<img src="帕利克3.jpg"  width="430" height="280" ;></p>
 </head>

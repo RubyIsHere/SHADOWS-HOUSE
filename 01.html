@@ -7,7 +7,8 @@
 body { background-color:#FFF8DC; }
 h3{color:royalblue;text-indent:10px;line-height:0.8;}
 p{color:black;text-indent:10px;line-height:1.5;}
-summary{color:royalblue;text-indent:10px;line-height:0.8;font-size:150%}
+button{color:royalblue;text-indent:10px;line-height:0.8;font-size:150%;border:0;background-color:#FFF8DC;}
+button:hover {color:black;font-weight:bold;text-shadow: 6px 2px 6px red;transform:scale(1.09);}
 
 span {
             position: relative;
@@ -56,13 +57,10 @@ a:hover {color:black;font-weight:bold;text-shadow: 6px 2px 6px red;transform:sca
 <img src="喬恩3.jpg"  width="180" height="250" ;>
 <img src="喬恩5.png"  width="480" height="250" ;>
 <br><br>
-<details>
-<summary>點擊查看尚恩真正身分(內有暴雷)</summary>
-<ol>
-<p>人類時期的名字是喬恩，影宅的領地「鏡邊村」出身，和利奇、露、拉姆是同學。<br>當時戴眼鏡，但進入影宅前為了給選拔官留下好印象而不戴眼鏡。因為需要照顧年幼弟妹的原因直到快要超過加入影宅的最高許可年齡（13歲）時才加入。<br>已被凱特告知影宅的真相並解除洗腦，經常和主人一起協助凱特。</p>
+
+<button type="button" onclick="document.getElementById('demo').style.display='block'">點擊查看尚恩真正身分(內有暴雷)</button>
+<p id="demo" style="display:none">人類時期的名字是喬恩，影宅的領地「鏡邊村」出身，和利奇、露、拉姆是同學。<br>當時戴眼鏡，但進入影宅前為了給選拔官留下好印象而不戴眼鏡。因為需要照顧年幼弟妹的原因直到快要超過加入影宅的最高許可年齡（13歲）時才加入。<br>已被凱特告知影宅的真相並解除洗腦，經常和主人一起協助凱特。<br>
 <img src="喬恩2.jpg"  width="250" height="250" ;>
-<img src="喬恩4.jpg"  width="380" height="250" ;>
-</ol>
-</details>
+<img src="喬恩4.jpg"  width="380" height="250" ;></p>
 
 </head>
